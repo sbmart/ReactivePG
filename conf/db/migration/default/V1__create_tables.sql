@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS sells;
+CREATE TABLE sells (
+  id SERIAL PRIMARY KEY,
+  cashid VARCHAR NOT NULL,
+  chcknumber VARCHAR NOT NULL,
+  SKU VARCHAR NOT NULL,
+  barcode VARCHAR NOT NULL,
+  name VARCHAR NOT NULL,
+  qty INT NOT NULL,
+  baseprice INT NOT NULL,
+  discountprice INT NOT NULL
+  );
